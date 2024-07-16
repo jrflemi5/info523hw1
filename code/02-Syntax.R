@@ -14,7 +14,7 @@ df <- data.frame(
   birth = c(1940, 1942, 1943, 1940), 
   instrument = c("guitar", "bass", "guitar", "drums")
 )
-
+#above block creates a dataframe about the Beatles
 df[2,3]
 df[c(2,4),c(2,3)]
 df[c(2,4),3]
